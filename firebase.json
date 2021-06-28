@@ -12,6 +12,14 @@
         "destination": "/privacy_policy/privacy_policy_en.html"
       },
       {
+        "source": "/terms_ja",
+        "destination": "/terms/terms_ja.html"
+      },
+      {
+        "source": "/terms_en",
+        "destination": "/terms/terms_en.html"
+      },
+      {
         "source": "/",
         "destination": "/index.html"
       },
