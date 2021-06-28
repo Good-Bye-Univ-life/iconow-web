@@ -18,4 +18,12 @@ body {
   font-weight: bold;
   font-size: 100px;
 }
+
+.terms-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
 /*# sourceMappingURL=index.css.map */
