@@ -44,6 +44,9 @@ section {
   justify-content: space-around;
   align-items: center;
   .desc-image {
+    &:nth-child(1) {
+      display: none;
+    }
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,4 +125,12 @@ small {
   display: block;
   text-align: center;
   margin-bottom: 10px;
+}
+
+@media (min-width: 480px) {
+  @import "_480up.scss";
+}
+
+@media (min-width: 800px) {
+  @import "_800up.scss";
 }
