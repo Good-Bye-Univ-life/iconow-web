@@ -1,30 +1,49 @@
 body {
   padding: 0px;
   margin: 0px;
+  background-color: #faf8ff;
 }
 
-.content-wrapper {
-  background-color: white;
+p {
+  color: #515151;
 }
 
-.catchphrase {
-  background-color: wheat;
-  padding-left: 50px;
-  margin: 50px;
+section {
+  margin: 20px 0px;
+  background-color: #fff;
+  padding: 10px 20px;
 }
 
-.catchphrase h1 {
+.section-title {
+  font-size: 20px;
+  color: #515151;
   margin: 0px;
-  font-weight: bold;
-  font-size: 100px;
 }
 
-.download-wrapper {
+#header {
+  background: #8f08ee;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 70%;
-  margin: 10px auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+}
+
+#header #header-logo {
+  margin-left: 20px;
+  height: 40px;
+}
+
+.link-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -33,7 +52,16 @@ body {
           align-items: center;
 }
 
-.terms-wrapper {
+.link-wrapper .store-link.apple img {
+  width: 135px;
+  padding-top: 10px;
+}
+
+.link-wrapper .store-link.google img {
+  width: 155px;
+}
+
+#terms {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,7 +70,12 @@ body {
           justify-content: center;
 }
 
-.terms-wrapper a {
-  margin: 20px;
+#terms a {
+  margin: 10px;
+}
+
+small {
+  display: block;
+  text-align: center;
 }
 /*# sourceMappingURL=index.css.map */
