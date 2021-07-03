@@ -5,35 +5,35 @@
     "rewrites": [
       {
         "source": "/privacy_policy_ja",
-        "destination": "/privacy_policy/privacy_policy_ja.html"
+        "destination": "/views/privacy_policy/privacy_policy_ja.html"
       },
       {
         "source": "/privacy_policy_en",
-        "destination": "/privacy_policy/privacy_policy_en.html"
+        "destination": "/views/privacy_policy/privacy_policy_en.html"
       },
       {
         "source": "/terms_ja",
-        "destination": "/terms/terms_ja.html"
+        "destination": "/views/terms/terms_ja.html"
       },
       {
         "source": "/terms_en",
-        "destination": "/terms/terms_en.html"
+        "destination": "/views/terms/terms_en.html"
       },
       {
         "source": "/",
-        "destination": "/index/index_en.html"
+        "destination": "/views/index/index_en.html"
       },
       {
         "source": "/en",
-        "destination": "/index/index_en.html"
+        "destination": "/views/index/index_en.html"
       },
       {
         "source": "/ja",
-        "destination": "/index/index_ja.html"
+        "destination": "/views/index/index_ja.html"
       },
       {
         "source": "**",
-        "destination": "/404/404.html"
+        "destination": "/views/404/404.html"
       }
     ]
   }
