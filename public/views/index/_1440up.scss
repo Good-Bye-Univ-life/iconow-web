@@ -1,0 +1,52 @@
+header {
+  display: none;
+}
+
+#title-section {
+  padding: 0px;
+  width: 100%;
+
+  .title-wrapper {
+    height: 400px;
+    margin-left: 10vw;
+    h1 {
+      font-size: 79px;
+      line-height: 90px;
+    }
+    p {
+      font-size: 19px;
+    }
+  }
+  .header-back {
+    display: block;
+    height: 40vw;
+  }
+}
+
+#support-section {
+  margin-top: 100px;
+}
+
+.link-section {
+  margin-bottom: 80px;
+}
+
+#preview-section {
+  left: 50%;
+  transform: translateX(-50%);
+  .preview-wrapper {
+    display: flex;
+    .preview-left {
+      margin-bottom: 200px;
+      height: 580px;
+      margin-right: 350px;
+    }
+
+    .preview-right {
+      margin-top: 200px;
+      height: 580px;
+      margin-left: 350px;
+      padding-right: 3vw;
+    }
+  }
+}

@@ -26,10 +26,16 @@ header {
       width: 150px;
     }
   }
+  .header-back {
+    display: none;
+  }
 }
 
 #title-section {
   margin-bottom: 10px;
+  .logo {
+    display: none;
+  }
   .title-wrapper {
     max-width: 480px;
     position: relative;
@@ -58,6 +64,9 @@ header {
       font-size: 3vw;
       color: $light-gray;
     }
+  }
+  .header-back {
+    display: none;
   }
 }
 
@@ -207,4 +216,12 @@ footer {
 
 @media (min-width: 800px) {
   @import "_800up.scss";
+}
+
+@media (min-width: 1024px) {
+  @import "_1024up.scss";
+}
+
+@media (min-width: 1440px) {
+  @import "_1440up.scss";
 }
