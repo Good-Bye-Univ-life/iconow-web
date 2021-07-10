@@ -18,6 +18,15 @@ section {
   padding: 35px 50px;
 }
 
+header {
+  .header-wrapper {
+    padding: 10px 20px;
+    img {
+      width: 150px;
+    }
+  }
+}
+
 #title-section {
   margin-bottom: 10px;
   .title-wrapper {
