@@ -2,6 +2,7 @@ $white: #fff;
 $purple: rgba(51, 29, 91, 0.8);
 $background: #dedce2;
 $light-gray: rgba(0, 0, 0, 0.6);
+$dark-gray: #303030;
 $title-back: rgba(164, 137, 212, 0.1);
 
 body {
@@ -20,7 +21,7 @@ section {
 
 header {
   .header-wrapper {
-    padding: 10px 20px;
+    padding: 2% 5%;
     img {
       width: 150px;
     }
@@ -30,8 +31,9 @@ header {
 #title-section {
   margin-bottom: 10px;
   .title-wrapper {
+    max-width: 480px;
     position: relative;
-    margin: 0px;
+    margin: 0px auto;
     h1 {
       margin: 0px;
       margin-bottom: 20px;
@@ -81,10 +83,12 @@ header {
 
 #support-section {
   .icons-wrapper {
+    max-width: 480px;
+    margin: 0px auto;
     text-align: center;
     margin-bottom: 30px;
     h3 {
-      font-size: 5vw;
+      font-size: 4vw;
       color: $light-gray;
     }
     img {
@@ -113,7 +117,7 @@ header {
       align-items: center;
       padding: 35px 25px;
       width: 100%;
-      height: 220px;
+      min-height: 220px;
       max-width: 230px;
       background-color: $white;
       border-radius: 25px;
@@ -148,15 +152,50 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    max-width: 400px;
+    margin: 0px auto;
 
     .store-link {
+      width: 50%;
       &.apple img {
-        width: 31vw;
-        padding: 2.3vw;
+        width: 80%;
+        padding: 5%;
       }
 
       &.google img {
-        width: 38vw;
+        width: 100%;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: $dark-gray;
+  .footer-wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      color: $white;
+      padding-bottom: 5px;
+    }
+  }
+}
+
+@media (min-width: 425px) {
+  #preview-section {
+    .preview-wrapper {
+      .preview-left {
+        margin-bottom: 212px;
+        height: 456px;
+      }
+
+      .preview-right {
+        margin-top: 212px;
+        height: 456px;
       }
     }
   }

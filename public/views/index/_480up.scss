@@ -1,0 +1,55 @@
+header {
+  .header-wrapper {
+    padding: 2% 5%;
+    img {
+      width: 170px;
+    }
+  }
+}
+
+#title-section {
+  .title-wrapper {
+    h1 {
+      font-size: 65px;
+      line-height: 75px;
+    }
+    p {
+      font-size: 15px;
+      color: $light-gray;
+    }
+  }
+}
+
+#support-section {
+  .icons-wrapper {
+    text-align: center;
+    margin-bottom: 30px;
+    h3 {
+      font-size: 20px;
+      color: $light-gray;
+    }
+    img {
+      display: inline-block;
+      width: 70%;
+      padding: auto;
+    }
+    &:last-of-type {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  #preview-section {
+    .preview-wrapper {
+      .preview-left {
+        transform: rotate(-10deg);
+        margin-right: 10vw;
+      }
+
+      .preview-right {
+        transform: rotate(10deg);
+      }
+    }
+  }
+}
