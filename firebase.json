@@ -24,16 +24,30 @@
         "destination": "/views/index/index_en.html"
       },
       {
+        "source": "**",
+        "destination": "/views/404/404.html"
+      }
+    ],
+    "redirects": [
+      {
         "source": "/en",
-        "destination": "/views/index/index_en.html"
+        "destination": "/",
+        "type": 301
       },
       {
         "source": "/ja",
-        "destination": "/views/index/index_ja.html"
+        "destination": "/",
+        "type": 301
       },
       {
-        "source": "**",
-        "destination": "/views/404/404.html"
+        "source": "/privacy_policy",
+        "destination": "/privacy_policy_en",
+        "type": 301
+      },
+      {
+        "source": "/terms",
+        "destination": "/terms_en",
+        "type": 301
       }
     ]
   }
